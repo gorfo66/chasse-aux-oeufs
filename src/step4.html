@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La quête - Etape 4</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div role="presentation" class = 'container'>
+    <main>
+      <h1>Etape 4</h1>
+      <p>
+        Vous avancez, mais est-ce vraiment une bonne chose ? Chaque bonne réponse vous rapproche... de l’inévitable. Cette fois-ci, ce n’est pas vos cerveaux que je veux tester, mais vos capacités à ne pas tomber dans le panneau.
+      </p>
+
+      <div class = "enigme">
+        <h2>L'énigme</h2>
+        <p>
+          Un fermier a 512 moutons. Tous sauf 9 s’enfuient.<br />
+          Combien lui en reste-t-il ?
+        </p>
+      </div>
+
+      <div class = 'response'>
+        <h2>Réponse</h2>
+        <p>
+          <input type = "tel" id = "response" placeholder = "un nombre"/>
+          <div id = 'error'></div>
+        </p>
+        
+      </div>
+    
+      <div class = 'actions'>
+        <button class = 'next' data-next-step="5">Continuer</button>
+      </div>
+      
+    </main>
+
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La quête - Etape 1</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div role="presentation" class = 'container'>
+    <main>
+      <h1>Etape 1, le départ</h1>
+      <p>
+        Pour trouver le premier indice, prouvez que vous savez lire entre les lignes ...
+      </p>
+
+      <div class = "enigme">
+        <h2>L'énigme</h2>
+        <p>
+          Trouve un mot de 9 lettres qui commence et finit par E, et contient une seule lettre.
+        </p>
+      </div>
+
+      <div class = 'response'>
+        <h2>Réponse</h2>
+        <p>
+          <input type = "text" id = "response" placeholder = "9 lettres, pas mieux"/>
+          <div id = 'error'></div>
+        </p>
+        
+      </div>
+    
+      <div class = 'actions'>
+        <button class = 'next' data-next-step="2">Continuer</button>
+      </div>
+      
+    </main>
+
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>

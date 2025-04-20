@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La quête - Etape 2</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div role="presentation" class = 'container'>
+    <main>
+      <h1>Etape 2</h1>
+      <p>
+        Bien joué ... mais ce n'était qu'un début. Oserez-vous aller plus loin ? L’étape suivante vous obligera à faire des maths… oui, des maths !
+      </p>
+
+      <div class = "enigme">
+        <h2>L'énigme</h2>
+        <p>
+          Je pense à un nombre.<br />
+          Je le multiplie par 3, puis j’ajoute 12.<br />
+          Le total est 45.<br />
+          Quel est le nombre de départ ?
+        </p>
+      </div>
+
+      <div class = 'response'>
+        <h2>Réponse</h2>
+        <p>
+          <input type = "tel" id = "response" placeholder = "entre le nombre"/>
+          <div id = 'error'></div>
+        </p>
+        
+      </div>
+    
+      <div class = 'actions'>
+        <button class = 'next' data-next-step="3">Continuer</button>
+      </div>
+      
+    </main>
+
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>

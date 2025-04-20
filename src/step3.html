@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La quête - Etape 3</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div role="presentation" class = 'container'>
+    <main>
+      <h1>Etape 3</h1>
+      <p>
+        Les maths n'ont pas de secrets pour vous.<br />
+        Voyons si vous serez capable de continuer la quête ...
+      </p>
+
+      <div class = "enigme">
+        <h2>L'énigme</h2>
+        <p>
+          Je suis un animal qu'on associe à Pâques, mais dans certains pays, c’est un renard ou un coucou qui cache les œufs.<br />
+          Quel pays associe un renard à Pâques ?
+        </p>
+      </div>
+
+      <div class = 'response'>
+        <h2>Réponse</h2>
+        <p>
+          <input type = "text" id = "response" placeholder = "on cherche un pays"/>
+          <div id = 'error'></div>
+        </p>
+        
+      </div>
+    
+      <div class = 'actions'>
+        <button class = 'next' data-next-step="4">Continuer</button>
+      </div>
+      
+    </main>
+
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>

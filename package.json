@@ -1,0 +1,13 @@
+{
+  "name": "chasse-aux-oeufs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server -c-1 src"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "http-server": "latest"
+  }
+}
